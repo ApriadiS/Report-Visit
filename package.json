@@ -1,0 +1,19 @@
+{
+   "name": "puppeteer",
+   "version": "1.0.0",
+   "main": "index.js",
+   "scripts": {
+      "test": "node index"
+   },
+   "keywords": [],
+   "author": "ApriadiS",
+   "license": "ISC",
+   "description": "",
+   "dependencies": {
+      "docx": "^9.7.1",
+      "papaparse": "^5.5.3",
+      "puppeteer": "^24.16.2",
+      "puppeteer-extra": "^3.3.6",
+      "puppeteer-extra-plugin-stealth": "^2.11.2"
+   }
+}
