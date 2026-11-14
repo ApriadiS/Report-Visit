@@ -368,7 +368,7 @@ async function fillGoogleForm(options = {}, name) {
             console.log(
                "          > [BERHASIL] Tombol 'Submit' terdeteksi aktif.",
             );
-            await new Promise((resolve) => setTimeout(resolve, 2500));
+            await new Promise((resolve) => setTimeout(resolve, 10000));
             if (CONFIG.PRODUCTION_MODE) {
                console.log(
                   "[MENCOBA] Mengklik tombol 'Submit' untuk mengirim form...",
